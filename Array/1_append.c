@@ -6,11 +6,12 @@ int append(int [], int, int);
 
 int main()
 {   
-    int array[10];
+    const int size = 10;
+    int array[size];
     int n, freepos;
     printf("Enter the number of element: ");
     scanf("%d", &n);
-    if(10 <= n) return -1;
+    if(size <= n) return -1;
 
     printf("Enter the elements: ");
     for (int i = 0; i < n; i++){
