@@ -10,7 +10,7 @@ int main()
     int n, freepos;
     printf("Enter the number of element: ");
     scanf("%d", &n);
-    if(array <= n) return -1;
+    if(10 <= n) return -1;
 
     printf("Enter the elements: ");
     for (int i = 0; i < n; i++){
