@@ -105,6 +105,9 @@ node *insert(node *head, int pos, int data)
 	else if (pos == 0 && pos != total)
 	{
 		return add_to_first(head, data);
+		//new_node->link = head;
+		//head = new_node
+		//return head // new head
 	}
 	else
 	{
