@@ -73,7 +73,8 @@ node * delete_last(node * head){
 		return NULL;
 
 	}else if (next->link == NULL){
-
+		printf("\nThis is Last Node\n");
+		free(head);
 		return NULL;
 
 	}else{
