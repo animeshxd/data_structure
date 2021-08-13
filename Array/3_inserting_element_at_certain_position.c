@@ -12,7 +12,7 @@ int main()
         array[i] = i;
     }
 
-    insert(array, arrayb, 66, 11, 5);
+    insert(array, arrayb, 66, 10, 5);
 
     for(int i=0; i< 11; i++){
 	    printf("%d ", arrayb[i]);
@@ -27,7 +27,7 @@ void insert(int array[], int arrayb[], int data, int size, int pos){
 	}
 	arrayb[pos] = data;
 
-	for(int i=pos, j=pos+1; i < size; i++, j++){
+	for(int i=pos, j=pos+1; i < size + 1; i++, j++){
 		arrayb[j] = array[i];
 	}
 
