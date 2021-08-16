@@ -1,4 +1,4 @@
-Deleting the Entire Single Linked List
+//Deleting the Entire Single Linked List
 #include <stdio.h>
 #include <stdlib.h>
 
