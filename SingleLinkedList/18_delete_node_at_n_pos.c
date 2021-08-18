@@ -67,7 +67,7 @@ void delete(node ** head, int pos){
 	return;
     }else if (pos == 0){
 
-	node * save = _head->link;
+	save = _head;
 	*head  = _head->link;
 	free(save);
 	save = NULL;
